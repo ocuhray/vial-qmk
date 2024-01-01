@@ -9,18 +9,20 @@
  */
 
 /* disable debug print */
-//#define NO_DEBUG
+#define NO_DEBUG
 
 /* disable print */
-//#define NO_PRINT
+#define NO_PRINT
 
 /* disable action features */
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
 
+//#define SPLIT_HAND_PIN B7
 #define SPLIT_USB_TIMEOUT 5000
-
 #define SPLIT_USB_TIMEOUT_POLL 25
 
 #define VIAL_KEYBOARD_UID {0xF1, 0x90, 0x95, 0x91, 0x61, 0x51, 0x18, 0x4A}
