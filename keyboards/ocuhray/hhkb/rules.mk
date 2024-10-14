@@ -20,4 +20,4 @@ SRC = matrix.c
 # debug-off: OPT_DEFS := $(filter-out -DCONSOLE_ENABLE,$(OPT_DEFS))
 # debug-off: all
 
-DEFAULT_FOLDER = hhkb/ansi/32u4
+DEFAULT_FOLDER = ocuhray/hhkb/32u4
